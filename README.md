@@ -11,7 +11,6 @@
 
  MENTOR: NEELA SANTOSH
 
-Here’s a detailed explanation of your real-time data streaming project in Power BI Service using an API:
 
 ---
 
