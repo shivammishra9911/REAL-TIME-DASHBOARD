@@ -76,7 +76,7 @@ These visualizations update automatically as new data arrives.
 - **Real-time Data Streaming**: The dashboard updates every second with fresh data.
 - **Dynamic Monitoring**: The changing humidity and AQI levels allow live tracking.
 - **Power BI API Utilization**: Demonstrates how Power BI can integrate with external data sources.
-
+![Image](https://github.com/user-attachments/assets/38ae974c-1a8e-47c3-abd4-6aa248ce94ab)
 ---
 
 ### **Possible Enhancements**
