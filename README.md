@@ -54,23 +54,7 @@ The PowerShell script continuously sends random values of humidity and AQI to Po
 - `Start-Sleep 1` ensures a 1-second delay between each data entry.
 
 #### **Code Used:**
-```powershell
-$endpoint = "https://api.powerbi.com/beta/{YourDatasetID}/rows?key={YourAPIKey}"
-
-while($true) {
-    $x = Get-Random -Minimum 1 -Maximum 100
-    $y = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ss")
-    $z = Get-Random -Minimum 150 -Maximum 280
-    $payload = @{
-        "Humidity" = $x
-        "City" = "Jaipur"
-        "DateTime" = $y
-        "AQI" = $z
-    }
-    Invoke-RestMethod -Method Post -Uri "$endpoint" -Body (ConvertTo-Json @($payload))
-    Start-Sleep 1
-}
-```
+![Image](https://github.com/user-attachments/assets/305bd387-b5ac-4b79-b28a-71b26208a14d)
 This script continuously feeds new data points to Power BI every second.
 
 ---
